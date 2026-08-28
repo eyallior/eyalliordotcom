@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eyal Lior — CV</title>
+<meta name="description" content="Eyal Lior — Technology leader, R&D / engineering management, hands-on full-stack developer.">
+<style>
+:root {
+  --ink:#1c2730; --muted:#68737c; --accent:#1f374c; --paper:#fff; --bg:#f4f6f8; --line:#dce2e7;
+}
+* { box-sizing:border-box; }
+body { margin:0; font-family:Arial,Helvetica,sans-serif; color:var(--ink); background:var(--bg); line-height:1.42; }
+main { max-width:980px; margin:28px auto; background:var(--paper); padding:42px 52px 54px; box-shadow:0 6px 28px rgba(0,0,0,.08); }
+header h1 { margin:0; font-size:2.25rem; color:var(--accent); letter-spacing:-.02em; }
+.kicker { margin:.2rem 0 .25rem; font-weight:700; color:var(--muted); font-size:.93rem; letter-spacing:.035em; }
+.contact { margin:.1rem 0 1.35rem; font-size:.93rem; }
+.contact a { color:inherit; }
+h2 { margin:1.6rem 0 .7rem; color:var(--accent); font-size:1rem; text-transform:uppercase; letter-spacing:.06em; border-bottom:2px solid var(--accent); padding-bottom:.25rem; }
+h3 { margin:.35rem 0 .12rem; font-size:1rem; }
+.profile { font-size:1rem; margin:.2rem 0 .8rem; }
+.strengths { display:grid; grid-template-columns:repeat(3,1fr); gap:.25rem 1.2rem; margin:.4rem 0 .8rem; padding-left:1.1rem; }
+.entry { border-bottom:1px solid var(--line); }
+.entry summary { list-style:none; cursor:pointer; display:flex; justify-content:space-between; gap:1rem; padding:.62rem 2rem .62rem 0; position:relative; }
+.entry summary::-webkit-details-marker { display:none; }
+.entry summary::after { content:"+"; position:absolute; right:.2rem; top:.46rem; color:var(--accent); font-size:1.25rem; font-weight:700; }
+.entry[open] summary::after { content:"−"; }
+.entry summary strong { text-align:right; color:var(--accent); }
+.entry em { color:var(--muted); font-weight:400; }
+.details-body { padding:0 1.7rem .6rem 0; }
+.details-body p { margin:.18rem 0; }
+.tech { color:var(--muted); font-size:.91rem; }
+.lead-item { margin:.55rem 0 .8rem; }
+.lead-item p { margin:.1rem 0; }
+.columns { display:grid; grid-template-columns:1fr 1fr; gap:2rem; }
+.small { font-size:.94rem; }
+.note { color:var(--muted); font-size:.88rem; margin:.55rem 0 0; }
+@media (max-width:700px) {
+  main { margin:0; padding:28px 22px 40px; box-shadow:none; }
+  .strengths { grid-template-columns:1fr; }
+  .columns { grid-template-columns:1fr; gap:.4rem; }
+  .entry summary { display:block; padding-right:1.8rem; }
+  .entry summary strong { display:block; text-align:left; margin-top:.15rem; }
+}
+@media print {
+  body { background:white; }
+  main { margin:0; max-width:none; box-shadow:none; padding:0; }
+  details { break-inside:avoid; }
+  details > * { display:block !important; }
+  .entry summary::after { display:none; }
+}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <h1>Eyal Lior</h1>
+  <div class="kicker">TECHNOLOGY LEADER · R&amp;D / ENGINEERING MANAGEMENT · HANDS-ON FULL-STACK</div>
+  <div class="contact">Tel Aviv · 053-5201397 · <a href="mailto:eyallior@eyallior.com">eyallior@eyallior.com</a> · <a href="https://eyallior.com/cv">eyallior.com/cv</a></div>
+</header>
+
+<section>
+<h2>Profile</h2>
+<p class="profile">Technology leader and hands-on full-stack developer with 26 years of professional and entrepreneurial experience across R&amp;D leadership, project management, product development, capital markets, intelligence, trade finance, and complex software systems. Creative and highly organized; favors experimentation and prototyping over extensive upfront planning, and matches engineering effort to actual risk and expected lifespan. Comfortable leading people and projects while remaining close to architecture and code.</p>
+</section>
+
+<section>
+<h2>Core strengths</h2>
+<ul class="strengths"><li>R&amp;D / engineering leadership</li>
+<li>Hands-on architecture &amp; full-stack development</li>
+<li>Project &amp; delivery management</li>
+<li>Rapid prototyping &amp; product development</li>
+<li>Customer / stakeholder ownership</li>
+<li>Strategic initiatives &amp; knowledge transfer</li></ul>
+</section>
+
+<section>
+<h2>Professional experience</h2>
+<p class="note">Click any role to expand or collapse details.</p>
+
+    <details class="entry work" open>
+      <summary>
+        <span><b>2020-Present</b> · Barak Capital <em>(Capital Markets)</em></span>
+        <strong>Full-Stack Tech / Team Lead</strong>
+      </summary>
+      <div class="details-body">
+        <p>Maintenance of existing systems and development from scratch of the new risk-management system.</p>
+        <p class="tech"><b>Technologies:</b> Java, Hibernate, JavaScript, Node.js, MySQL, PostgreSQL, Docker</p>
+      </div>
+    </details>
+
+    <details class="entry work" open>
+      <summary>
+        <span><b>2016-2020</b> · Surecomp <em>(Trade Finance)</em></span>
+        <strong>Full-Stack Project Manager</strong>
+      </summary>
+      <div class="details-body">
+        <p>Implemented new functionality and maintained multiple versions of front-end and middle-tier products. Main customer focal point; delivery planning and project management.</p>
+        <p class="tech"><b>Technologies:</b> Java, Spring, JavaScript, Oracle</p>
+      </div>
+    </details>
+
+    <details class="entry work" open>
+      <summary>
+        <span><b>2014-2015</b> · MapLabs <em>(Geo-data)</em></span>
+        <strong>Full-Stack Developer</strong>
+      </summary>
+      <div class="details-body">
+        <p>Developed the platform behind Mapme.com for creating geo-data-rich maps.</p>
+        <p class="tech"><b>Technologies:</b> Java, Spring, JavaScript, jQuery, MongoDB, Angular, Node.js</p>
+      </div>
+    </details>
+
+    <details class="entry work" open>
+      <summary>
+        <span><b>2008-2014</b> · Athena GS3 <em>(Intelligence)</em></span>
+        <strong>Full-Stack Project Manager</strong>
+      </summary>
+      <div class="details-body">
+        <p>Developed HUMINT software for intelligence agencies, including stylometry, NLP, taxonomy/ontology tools, federated search, web/social-network collection and analytics, and knowledge visualization.</p>
+        <p class="tech"><b>Technologies:</b> MSSQL, C#, ASP.NET, JavaScript, Java, JSP/Servlets, MySQL</p>
+      </div>
+    </details>
+
+    <details class="entry work" open>
+      <summary>
+        <span><b>2006-2007</b> · Protagonis, Inc. <em>(Algorithmic Pricing)</em></span>
+        <strong>Front-End Team Lead</strong>
+      </summary>
+      <div class="details-body">
+        <p>Developed desktop tools, a system monitor, and a configuration server for an application used by traders at leading investment banks.</p>
+        <p class="tech"><b>Technologies:</b> C# / WinForms, JavaScript, Java, JSP/Servlets, GWT</p>
+      </div>
+    </details>
+
+    <details class="entry work" open>
+      <summary>
+        <span><b>2003-2005</b> · Fitracks, Inc. <em>(3D Scanning)</em></span>
+        <strong>R&amp;D Manager</strong>
+      </summary>
+      <div class="details-body">
+        <p>Developed a 3D scanner using webcams, lasers and sensors, plus a multi-tier CRM and kiosk stations. Managed a team of five.</p>
+        <p class="tech"><b>Technologies:</b> MSSQL, C#, ASP.NET, JavaScript, C++</p>
+      </div>
+    </details>
+
+    <details class="entry work" open>
+      <summary>
+        <span><b>2001-2002</b> · Lyncean / CSFB <em>(Investment Banking)</em></span>
+        <strong>Full-Stack Developer</strong>
+      </summary>
+      <div class="details-body">
+        <p>Coordinated design, development and data-merge processes; built automated document-feed processing and taxonomy applications; re-architected process and data designs to withstand vendor/environment changes.</p>
+        <p class="tech"><b>Technologies:</b> MSSQL, C#, ASP.NET, JavaScript, Perl, Java, JSP/Servlets/EJB</p>
+      </div>
+    </details>
+</section>
+
+<section>
+<h2>Leadership &amp; strategic experience</h2>
+<div class="lead-item"><h3>CSPII · Israel Franchise Manager &amp; VP, Strategic Initiatives</h3><p>Leadership role combining franchise management with strategic initiatives for an international research organization; develops and leads research, outreach and organizational projects.</p></div>
+<div class="lead-item"><h3>Legal advocacy &amp; method development</h3><p>Independently learned litigation and procedural practice, developed and applied an original legal method in court, and taught the methodology to others.</p></div>
+<div class="lead-item"><h3>Podcast host</h3><p>Hosted a podcast for several years, building experience in long-form interviewing, public communication and facilitating complex discussions.</p></div>
+</section>
+
+<section>
+<h2>Products &amp; independent projects</h2>
+<p class="note">The print CV contains a selected set; this online version keeps the full project archive available without making the main page feel crowded.</p>
+
+    <details class="entry project">
+      <summary>
+        <span><b>2026</b> · OSINT System <em>(International Security)</em></span>
+      </summary>
+      <div class="details-body">
+        <p>Automated system for collecting, processing and organizing large volumes of information for an international security research institution.</p>
+        <p class="tech"><b>Technologies:</b> Node.js, AI API, PostgreSQL</p>
+      </div>
+    </details>
+
+    <details class="entry project">
+      <summary>
+        <span><b>2024</b> · VanillaBoot.js.org <em>(Components-based Front-End Library)</em></span>
+      </summary>
+      <div class="details-body">
+        <p>Eliminates the need for extensive frameworks such as React or Vue for suitable projects, enabling reusable UI components using standard JavaScript and HTML while preserving native-web simplicity.</p>
+        <p class="tech"><b>Technologies:</b> JavaScript</p>
+      </div>
+    </details>
+
+    <details class="entry project">
+      <summary>
+        <span><b>2024</b> · Tor-Telegram Bridge <em>(Anonymity / Security)</em></span>
+      </summary>
+      <div class="details-body">
+        <p>Secure services-host platform with a Tor-hidden core and Telegram bot bridge, secured by an admin-initiated rolling code to reduce misuse risk if the bot is compromised.</p>
+        <p class="tech"><b>Technologies:</b> JavaScript, Node.js</p>
+      </div>
+    </details>
+
+    <details class="entry project">
+      <summary>
+        <span><b>2023</b> · SafeRide.app <em>(Personal Safety)</em></span>
+      </summary>
+      <div class="details-body">
+        <p>Taxi-travel safety application with location tracking and a timer-based workflow that can silently notify emergency services if the user does not extend the timer or respond.</p>
+        <p class="tech"><b>Technologies:</b> JavaScript, Node.js, MongoDB</p>
+      </div>
+    </details>
+
+    <details class="entry project">
+      <summary>
+        <span><b>2022</b> · SwimSafe.app <em>(Personal Safety)</em></span>
+      </summary>
+      <div class="details-body">
+        <p>Customized SOSBox instance designed for open-water swimmers.</p>
+        <p class="tech"><b>Technologies:</b> JavaScript, Node.js, MongoDB</p>
+      </div>
+    </details>
+
+    <details class="entry project">
+      <summary>
+        <span><b>2020</b> · SOSBox.app <em>(Personal Safety)</em></span>
+      </summary>
+      <div class="details-body">
+        <p>Originally designed for elevator safety where mobile reception may be unavailable. Users set emergency contacts and a timer; failure to confirm safe exit triggers alerts with location information.</p>
+        <p class="tech"><b>Technologies:</b> React (later refactored to Vanilla JS), JavaScript, Node.js, MongoDB</p>
+      </div>
+    </details>
+
+    <details class="entry project">
+      <summary>
+        <span><b>2020</b> · WhoToGoWith.com <em>(Social)</em></span>
+      </summary>
+      <div class="details-body">
+        <p>Social platform for connecting people who want companions for events they would rather not attend alone.</p>
+        <p class="tech"><b>Technologies:</b> React, JavaScript, Node.js, MongoDB</p>
+      </div>
+    </details>
+
+    <details class="entry project">
+      <summary>
+        <span><b>2009</b> · GraphFlow <em>(Graph-Based Content Management)</em></span>
+      </summary>
+      <div class="details-body">
+        <p>Transforms unstructured text into editable graphs, supports relationship traversal, node metadata and timeline organization; designed for dynamic content and intelligence analysis.</p>
+        <p class="tech"><b>Technologies:</b> Java, Servlets, JSP, JavaScript, Canvas, MySQL</p>
+      </div>
+    </details>
+
+    <details class="entry project">
+      <summary>
+        <span><b>2008</b> · FriendQuest <em>(Social)</em></span>
+      </summary>
+      <div class="details-body">
+        <p>Platform for connecting like-minded people using a dynamic questionnaire that adapts according to previous answers or user guidance.</p>
+        <p class="tech"><b>Technologies:</b> Java, Servlets, JSP, JavaScript, MySQL</p>
+      </div>
+    </details>
+
+    <details class="entry project">
+      <summary>
+        <span><b>2005</b> · YourBusinessNetwork <em>(E-Commerce Open Network)</em></span>
+      </summary>
+      <div class="details-body">
+        <p>GnuMuse-based concept for a P2P-like network in which stores could list products and comparison sites could connect directly, aiming to decentralize marketplace power and increase competition.</p>
+        <p class="tech"><b>Technologies:</b> Java, Jetty, JavaScript, MySQL, Gnutella, XMPP</p>
+      </div>
+    </details>
+
+    <details class="entry project">
+      <summary>
+        <span><b>2002</b> · GnuMuse <em>(P2P Music File Sharing + Instant Messaging)</em></span>
+      </summary>
+      <div class="details-body">
+        <p>Combined a Gnutella client with Jabber/XMPP instant messaging, using the user&#x27;s contact list rather than random IP addresses as the basis for network discovery.</p>
+        <p class="tech"><b>Technologies:</b> Java, Swing, Gnutella, XMPP</p>
+      </div>
+    </details>
+</section>
+
+<section>
+<h2>Technical breadth</h2>
+<p><b>Primary:</b> Java, C#, JavaScript / TypeScript, Node.js, SQL, PostgreSQL, MySQL, MSSQL, Oracle, Docker</p>
+<p><b>Additional:</b> Spring, Hibernate, React, Angular, Jenkins, TeamCity, RabbitMQ, sockets, Python, Android Studio, Xcode, AG-Grid, Telegram API, Tor / Onion</p>
+</section>
+
+<section class="columns">
+<div>
+<h2>Education</h2>
+<p class="small"><b>BSc in Computer Science</b> (2005)<br><b>ASc in Electricity</b> (1999)</p>
+</div>
+<div>
+<h2>Interests</h2>
+<p class="small">Jazz guitar &amp; music theory; ethics and political philosophy; volunteering.</p>
+</div>
+</section>
+</main>
+</body>
+</html>
